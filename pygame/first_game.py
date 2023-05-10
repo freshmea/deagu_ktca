@@ -15,10 +15,16 @@ class Ball(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.pos = pos
         self.all_sprites = pygame.sprite.Group()
+        self.a = 1
     
     def update(self):
         self.rect.center = self.pos
-        self.pos = self.pos + vec(1,0)
+        if self.pos.x > 600:
+            self.a = -1
+        elif self.pos.x < 0:
+            self.a = 1
+        self.pos.x = self.pos.x + self.a
+            
 
 pygame.init()
 screen = pygame.display.set_mode((600, 300))
