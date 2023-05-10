@@ -1,8 +1,9 @@
 import turtle
 
 while True:
-    turtle.forward(300)
-    turtle.left(100)
+    for i in range(100):
+        turtle.forward(300)
+        turtle.left(100)
     print(turtle.position())
     break
     

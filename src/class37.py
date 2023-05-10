@@ -13,9 +13,9 @@ def main():
     print(list_a)
     random.shuffle(list_a)
     print(list_a)
-    for i in range(100):
-        # 중복 안됨.
-        print(random.sample(list_a, k =3))
+    # for i in range(100):
+    #     # 중복 안됨.
+    #     print(random.sample(list_a, k =3))
     
 
 if __name__ == '__main__':

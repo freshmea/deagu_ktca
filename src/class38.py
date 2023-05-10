@@ -8,6 +8,7 @@ print(sys.copyright)
 print(sys.version)
 print(sys.version_info)
 print(sys.path)
+
 print(os.getcwd())
 print(os.listdir())
 print(os.chdir('src/'))

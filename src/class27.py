@@ -1,7 +1,7 @@
 def power(item):
     return item * item
 
-def under_3(item):
+def under_7(item):
     return item < 7
 
 def main():
@@ -14,7 +14,7 @@ def main():
     result = map(power, list_a)
     print(list(result))
     
-    result = filter(under_3, list_a)
+    result = filter(under_7, list_a)
     print(list(result))
     result = filter(under_3, list_a)
     for i in result:

@@ -2,12 +2,13 @@ def multi_return():
     a = 10
     b = 20
     c = 30
-    return a, b
+    return a, b, c
 
 def main():
-    re_a, re_b = multi_return()
-    print(re_a)
-    print(re_b)
+    re_a= multi_return()
+    print(list(re_a)[3])
+    # print(re_b)
+    # print(re_c)
 
 if __name__ == '__main__':
     main()

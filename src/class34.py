@@ -18,8 +18,10 @@ def main():
     
     # c = next(output)
     # print(c)
+    # print('F 지점 통과')
     for i in output:
         print('aa')
         print(i)
+    
 if __name__ == '__main__':
     main()
