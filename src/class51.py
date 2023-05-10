@@ -41,23 +41,7 @@ def main():
     Student('구자연', 88, 50, 74, 16)
     Student('아무개', 80, 80, 60, 16)
     
-    # student1 = Student('이름', 11, 11, 11, 11)
-    # student1.get_avr()
-    # print(student1.math)
-    # print(students[0].name)
-    # print(students[0].science)
-    # print(students[0].get_sum())
-    # print(students[0].get_avr())
-
-    # print("이름\t총점\t평균")
-    # for student in students:
-    #     print(student.student_to_string())
-        
-    # print("이름\t총점\t평균")
-    # for student in Student.students:
-    #     print(student)
     Student.st_print()
 
-    print(Student.count)
 if __name__ == '__main__':
     main()
