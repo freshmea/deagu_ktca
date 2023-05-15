@@ -5,6 +5,7 @@ a1 = np.array([[2, -1, 5], [-5, 2, 2], [2, 1, 3]])
 a2 = np.array([[0, 1, 0], [1, 0, 1], [1, 1, 0]])
 a3 = np.array([1, -1, 1])
 a4 = np.array([1, 0, 1]).reshape((3,1))
+
 b1 = np.dot(a1, a2)
 b2 = a1.dot(a3)
 b3 = a1 @ a4
