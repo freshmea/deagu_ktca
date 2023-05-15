@@ -1,26 +1,26 @@
-import pygame
-import sys
-from pygame.locals import *
+# import pygame
+# import sys
+# from pygame.locals import *
 
-pygame.init()
-screen = pygame.display.set_mode((600, 400))
-clock = pygame.time.Clock()
-font = pygame.font.SysFont('malgungothic', 36)
+# pygame.init()
+# screen = pygame.display.set_mode((600, 400))
+# clock = pygame.time.Clock()
+# font = pygame.font.SysFont('malgungothic', 36)
 
-while True:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            sys.exit()
-    clock.tick(60)
-    a=font.render('안녕하세요!!!!', True, (255, 0, 0))
-    screen.blit(a, (0,0))
-    pygame.display.update()
+# while True:
+#     for event in pygame.event.get():
+#         if event.type == pygame.QUIT:
+#             sys.exit()
+#     clock.tick(60)
+#     a=font.render('안녕하세요!!!!', True, (255, 0, 0))
+#     screen.blit(a, (0,0))
+#     pygame.display.update()
     
     
-# # 이 게임에 UI 를 추가해서 넣어보세요.
-# UI 에 사각형 틀 추가하기
-# 체력바를 만들어서 ball의 전체 mass 량을 표현하기
-# 글자 넣기
+# # # 이 게임에 UI 를 추가해서 넣어보세요.
+# # UI 에 사각형 틀 추가하기
+# # 체력바를 만들어서 ball의 전체 mass 량을 표현하기
+# # 글자 넣기
 
 import pygame
 import random
