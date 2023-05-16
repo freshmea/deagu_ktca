@@ -11,4 +11,4 @@ data = {'name': ['Kim', 'Lee', 'Park'],
         'children': [2, 1, 3]
         }
 df3 = pd.DataFrame(data)
-print(df3)
+print(df3.loc[1:2, ['name', 'age']])

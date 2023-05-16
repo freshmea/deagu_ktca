@@ -15,6 +15,6 @@ print(df['age'].count())
 con = df['adult_male'] == True
 print(df.loc[con]['age'].mean())
 print(df.loc[:, ['age', 'fare']].sum())
-
+# print(df.loc[:][['age', 'fare']].sum())
 print(df['fare'].var())
 print(df['fare'].std())
