@@ -6,7 +6,7 @@ def multi_return():
 
 def main():
     re_a= multi_return()
-    print(list(re_a)[3])
+    print(list(re_a)[2])
     # print(re_b)
     # print(re_c)
 
