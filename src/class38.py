@@ -1,6 +1,8 @@
 import sys
 import os
-from turtle import *
+from turtle import color, begin_fill, forward, left, position, end_fill, done, pos
+
+# import turtle
 
 print(sys.argv)
 print(sys.getwindowsversion())
@@ -11,24 +13,25 @@ print(sys.path)
 
 print(os.getcwd())
 print(os.listdir())
-print(os.chdir('src/'))
+print(os.chdir("src/"))
 print(os.getcwd())
 try:
-    os.mkdir('test')
-except:
+    os.mkdir("test")
+except Exception:
     pass
-os.rmdir('test')
-os.rename('../data/hello.txt', '../data/rename.txt')
-os.rename('../data/rename.txt', '../data/hello.txt')
-os.system('ipconfig')
+os.rmdir("test")
+os.rename("../data/hello.txt", "../data/rename.txt")
+os.rename("../data/rename.txt", "../data/hello.txt")
+os.system("ipconfig")
 
-# color('red', 'yellow')
-# begin_fill()
-# while True:
-#     forward(200)
-#     left(170)
-#     if abs(pos()) < 1:
-#         break
-#     print(position())
-# end_fill()
-# done()
+
+color("red", "yellow")
+begin_fill()
+while True:
+    forward(200)
+    left(170)
+    if abs(pos()) < 1:
+        break
+    print(position())
+end_fill()
+done()

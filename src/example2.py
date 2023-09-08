@@ -6,13 +6,14 @@
 
 import random
 
+
 def main():
     number_list = list()
     answer_list = list()
     ball = int()
     strike = int()
     i = int()
-    
+
     while i < 3:
         number = random.randint(1, 9)
         if number in number_list:
@@ -20,23 +21,24 @@ def main():
         number_list.append(number)
         i += 1
     print(number_list)
-    
+
     while strike != 3:
         answer_list.clear()
         strike = 0
         ball = 0
         for i in range(3):
             answer_list.append(int(input()))
-        
+
         for i, ivalue in enumerate(number_list):
             for j, jvalue in enumerate(answer_list):
                 if ivalue == jvalue:
                     if i == j:
                         strike += 1
                     else:
-                        ball += 1 
-        
-        print(f'strike :{strike}, ball :  {ball}')
+                        ball += 1
 
-if __name__ == '__main__':
+        print(f"strike :{strike}, ball :  {ball}")
+
+
+if __name__ == "__main__":
     main()

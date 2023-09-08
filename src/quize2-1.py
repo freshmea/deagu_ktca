@@ -1,5 +1,6 @@
-with open('data/question.txt', 'w') as f:
-    f.write("""
+with open("data/question.txt", "w") as f:
+    f.write(
+        """
 1. 번 문제 13+ 24*2 는 무엇일까요?
   1) 0
   2) 10
@@ -48,4 +49,5 @@ with open('data/question.txt', 'w') as f:
   1) throw
   2) true
   3) True
-  4) TRUE""")
+  4) TRUE"""
+    )

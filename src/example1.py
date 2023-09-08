@@ -1,6 +1,7 @@
 # 무작위 로또 변호 출력하기
 import random
 
+
 def main():
     number_list = list()
     i = int()
@@ -12,5 +13,6 @@ def main():
         i += 1
     print(number_list)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

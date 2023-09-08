@@ -6,5 +6,5 @@ while True:
         turtle.left(100)
     print(turtle.position())
     break
-    
+
 turtle.done()

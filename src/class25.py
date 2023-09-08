@@ -4,11 +4,13 @@ def multi_return():
     c = 30
     return a, b, c
 
+
 def main():
-    re_a= multi_return()
+    re_a = multi_return()
     print(list(re_a)[2])
     # print(re_b)
     # print(re_c)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
